@@ -1,0 +1,36 @@
+.name
+{
+    font-size: 50px;
+    color: green;
+    margin-left: 500px;
+}
+.image
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.bg
+{
+    background-color:  green;
+    height: 350px;
+    width: 350px;
+    margin-left:500px ;
+    border-radius: 200px;
+    margin-top: 30px;
+}
+.b{
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 25px;
+}
+.infor
+{
+    margin-left: 500px;
+    font-size: 20px;
+    color: green ;
+    
+}

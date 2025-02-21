@@ -1,0 +1,26 @@
+
+.tab
+{
+    margin-top: 60px;
+    margin-left: 500px;
+}
+.box
+{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+
+.bo
+{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    color: #FFD700;
+    margin-top: 3px;
+    border-radius: 100px;
+}
