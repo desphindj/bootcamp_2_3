@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #popupbox
+        {
+            display: none;
+            position: fixed;
+            margin-top: 00px;
+            margin-left: 800px;
+            transform: translate(-50%,-50%);
+            background-color: #66A5AD;
+            border:2px solid black;
+            height: 500px;
+            padding: 30px;
+
+            
+        }
+        .top
+        {
+            background-color: #C4DFE6;
+            height: 500px;
+            width: 600px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1 style="color: rgb(255, 255, 255); ">POPUP BUTTON</h1>
+        <h2 style="color: rgb(255, 252, 252);"> BOOTCAMP</h2>
+        <p style="color: rgb(255, 250, 250); width: 400px"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt consequuntur minus optio repudiandae distinctio iste voluptas dignissimos, accusamus excepturi omnis laudantium rerum. Tenetur iure laboriosam quibusdam, amet officia voluptatibus corrupti maxime sequi illo, animi commodi eos? Dolor nobis quo dolorem suscipit unde, sit, necessitatibus numquam rerum, adipisci impedit maxime blanditiis. </p>
+        <button style="height: 40px;width: 100px; background-color:#66A5AD ; color: white;border-radius: 200px;" onclick="box1()" >click </button>
+    </div>
+    <br>
+    <div  id="popupbox">
+        <h1 style="color: white;" > POPUP BOX</h1>
+        <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quam unde aliquam mollitia libero! Soluta facilis, veritatis molestias, at alias rerum provident asperiores pariatur velit reprehenderit eum maxime cum ducimus tempore quo vel dicta a voluptatum debitis eaque sed beatae sequi? Laudantium eveniet facere possimus excepturi cumque ea, necessitatibus voluptate!</p>
+        <button  onclick="box2()" > click</button>
+    </div>
+    <script src="popup.js">  </script>
+</body>
+</html>
